@@ -1,3 +1,3 @@
 $(function () {
-    $("#footer-placeholder").load("https://nolifer47.github.io/Web-Projects/assets/footer/footer.html");
+    $("#footer-placeholder").load("https://nolifer47.github.io/Holken/assets/footer/footer.html");
 });
