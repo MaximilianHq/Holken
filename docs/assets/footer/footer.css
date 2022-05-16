@@ -1,0 +1,81 @@
+:root {
+    --bg-color: #272727;
+    --link-color: #ededed;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.social {
+    margin-left: 75px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    background-color: var(--bg-color);
+}
+
+.links {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+
+    text-align: center;
+    cursor: pointer;
+    transition: 0.8s;
+
+    border: 2px solid var(--link-color);
+    border-radius: 50px;
+}
+
+.links i {
+    margin-top: 6px;
+
+    font-size: 17px;
+    color: var(--link-color);
+}
+
+/* LINK HOVER */
+.discord:hover {
+    background-color: #5865F2;
+}
+.steam:hover {
+    background-color: #092c55;
+}
+.medal:hover {
+    background-color: #d3a900;
+}
+.soundcloud:hover {
+    background-color: #ff7700;
+}
+.youtube:hover {
+    background-color: #FF0000;
+}
+.github:hover {
+    background-color: #000000;
+}
+.replit:hover {
+    background-color: #000000;
+}
+
+.copyright {
+    margin-left: 75px;
+    padding: 10px;
+
+    text-align: center;
+    cursor: default;
+
+    background-color: #383838;
+}

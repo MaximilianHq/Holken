@@ -1,0 +1,71 @@
+/* Font */
+
+.text {
+    display: flex;
+    font-family: 'Asap Condensed', sans-serif;
+    word-spacing: 2.5px;
+  }
+  .text h1, h2 {
+    font-family: 'Staatliches', arial;
+    font-weight: 550;
+    letter-spacing: 2px;
+  }
+  .text h1{
+    text-align: center;
+    margin-top: 40px;
+  }
+  #text{
+    margin-left:300px;
+    width: 600px;
+    border: 2px solid #000000;
+    padding: 20px;
+  }
+  #text2{
+    font-size: 3000%;
+    letter-spacing: 0px;
+    writing-mode: vertical-rl;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 600px;
+    padding: auto;
+  }
+    
+  /* NAV Meny */
+  
+  .wrapper{
+    width: 75px;
+    color: white;
+    
+  }
+  
+  nav{
+    font-size: 150%;
+    list-style-type: none;
+    margin-left: 35px;
+    margin-top: 60px;
+    padding: 0;
+    width: 15%;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+  
+  
+  nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Staatliches', arial;
+    font-weight: 550;
+    letter-spacing: 3px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* FAQ */
+  
+  .container{
+    display: flex;
+  }

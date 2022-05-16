@@ -1,0 +1,141 @@
+:root {
+    --icon-color: #d1d1d1;
+    --icon-color-hover: #a200ff;
+}
+
+nav {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    width: 0;
+    left: 0;
+
+    transition: 0.5s;
+    z-index: 1;
+    /* z-index property specifies the stack order of an element. */
+    overflow-x: hidden;
+    /* Overflow specifies what should happen if 
+                           content overflows an element's box. */
+    background-image: linear-gradient(to right, #0e0012 , #100015 , #120018);
+}
+
+.first-nav {
+    width: 75px;
+}
+
+.menu {
+    margin-left: 10px;
+    margin-top: 12px;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 165px;
+}
+
+.menu div {
+    padding: 15px;
+
+    cursor: pointer;
+
+    color: var(--icon-color);
+}
+
+.menu-type2 {
+    margin-top: 28px;
+
+    font-size: 30px;
+}
+
+.menu-type2 a {
+    margin-left: 220px;
+    padding: 15px;
+
+    text-decoration: none;
+    color: var(--icon-color);
+}
+
+/* HOVER THEME */
+.homebtn:hover i,
+.openNav div:hover i,
+.openNav-no-pic a:hover,
+.menu div:hover i,
+.menu-type2 .fa-arrow-left-long:hover {
+    color: var(--icon-color-hover);
+}
+
+.homebtn i,
+.openNav div i,
+.openNav-no-pic a,
+.menu div i,
+.menu-type2 .fa-arrow-left-long {
+    transition: 0.8s;
+}
+
+/* Navigation menu with icons */
+.openNav {
+    margin-left: 10px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    color: var(--icon-color);
+}
+.openNav div{
+    padding: 15px; /* Instead of gap, so that whole div is clickable */
+}
+
+.openNav span {
+    margin-left: 25px;
+}
+
+/* Navigation menu without icons */
+.openNav-no-pic {
+    cursor:auto;
+}
+
+.openNav-no-pic a {
+    margin-left: 55px;
+    padding: 15px;
+
+    cursor: pointer;
+
+    text-decoration: none;
+    color: var(--icon-color);
+}
+
+/* potential credits
+.credit {
+    position: absolute;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    bottom: 0;
+
+    font-size: 11px;
+}
+
+.credit a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #979797;
+}
+*/
+
+.homebtn {
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    bottom: 0;
+    padding: 15px;
+
+    cursor: pointer;
+
+    font-size: 25px;
+    color: var(--icon-color);
+}

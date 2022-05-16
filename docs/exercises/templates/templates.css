@@ -1,0 +1,21 @@
+body {
+    font-family: "Arial";
+}
+
+main {
+    text-align: center;
+}
+
+dd {
+    margin-bottom: 15px;
+}
+
+dt {
+    margin-bottom: 5px;
+}
+
+ul,
+ol {
+    margin: auto;
+    max-width: 140px;
+}

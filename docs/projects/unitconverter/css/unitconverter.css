@@ -1,0 +1,99 @@
+/* GENERAL */
+
+body {
+    background-image: url("../pictures/background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Fredoka', sans-serif;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.322);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 15%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: #303030;
+    font-size: 13px;
+    font-weight: 640;
+    font-style: italic;
+}
+
+/* INPUT / OUTPUT */
+
+#i,
+#i2,
+#o,
+#o2 {
+    color: black;
+    background-color: #f1f1f1;
+    padding: 6px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    font-weight: 640;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 5px;
+}
+
+#i,
+#i2 {
+    direction: rtl;
+}
+
+input[type=number] {
+    width: 200px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 5px;
+}
+
+#output,
+#output2 {
+    color: #ffffff;
+}
+
+/* CONVERTER */
+
+.converterMass {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.converterDistance {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* Small devices (tablets) */
+
+@media only screen and (max-width: 1200px) {
+    main {
+        margin-top: 40%;
+    }
+}
+
+/* Extra small devices (phones) */
+
+@media only screen and (max-width: 600px) {
+    main {
+        margin-top: 55%;
+    }
+
+    input[type=number] {
+        width: 160px;
+    }
+}
+
+/* Super small devices (galaxy fold) */
+
+@media only screen and (max-width: 300px) {
+    input[type=number] {
+        width: 60px;
+    }
+}

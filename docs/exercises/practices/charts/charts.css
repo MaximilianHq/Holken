@@ -1,0 +1,33 @@
+main {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+}
+
+table {
+    border: 3px solid #fff;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #fff;
+    padding: 5px;
+    font: Arial, sans-serif;
+}
+
+th {
+    border: 2px solid #fff;
+    padding: 2px;
+    font: Arial, sans-serif;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #bbb;
+}
+
+tr:nth-child(odd) {
+    background-color: #6D6D6D;
+    color: white;
+}

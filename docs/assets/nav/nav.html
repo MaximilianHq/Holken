@@ -1,0 +1,143 @@
+<link rel="stylesheet" href="/docs/assets/nav/nav.css">
+<script src="/docs/assets/nav/nav.js"></script>
+<script src="https://kit.fontawesome.com/82c349bd99.js" crossorigin="anonymous"></script>
+
+<!-- NAVIGATION MENU -->
+<nav class="first-nav" id="nav">
+
+    <div class="menu">
+        <!-- menu button -->
+        <div onclick="openNav()">
+            <i style="font-size:30px;" class="fa-solid fa-bars"></i>
+        </div>
+        <!-- close button -->
+        <div onclick="closeNav()">
+            <i style="font-size: 32px;" class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+
+    <div class="openNav">
+
+        <div onclick="openNavProjects()">
+            <i style="margin-left: -1px;" class="fa-solid fa-diagram-project"></i>
+            <span style="margin-left: 21px">Projects</span>
+        </div>
+
+        <div onclick="openNavSites()">
+            <i class="fa-solid fa-window-maximize"></i>
+            <span>Sites</span>
+        </div>
+
+        <div onclick="openNavResourcepacks()">
+            <i style="margin-left: 4px;" class="fa-solid fa-file-arrow-down"></i>
+            <span style="margin-left: 25px;">Resourcepacks</span>
+        </div>
+
+        <div onclick="openNavExercises()">
+            <i class="fa-solid fa-book-open"></i>
+            <span style="margin-left: 20px;">Exercises</span>
+        </div>
+
+        <div onclick="location.href='/docs/old_site/old_site.html';">
+            <i style="margin-left: 2px;" class="fa-solid fa-globe"></i>
+            <span style="margin-left: 23px;">Old Site</span>
+        </div>
+
+    </div>
+
+    <!-- potential credits
+    <div class="credit">
+        <a href="https://fontawesome.com">
+            Folder icons created <br> by Fontawesome
+        </a>
+    </div>
+    -->
+
+
+    <div class="homebtn" onclick="location.href='/docs/index.html';">
+            <i class="fa-solid fa-house"></i>
+    </div>
+
+</nav>
+
+<!-- PROJECTS NAVIGATION MENU -->
+<nav id="navProjects">
+    <div class="menu-type2">
+        <a href="javascript:void(0)" onclick="closeNavProjects()"><i class="fa-solid fa-arrow-left-long"></i></a>
+    </div>
+
+    <div class="openNav openNav-no-pic">
+        <a href="/docs/projects/unitconverter/html/unitconverter.html">Unitconverter</a>
+    </div>
+</nav>
+
+<!-- SITES NAVIGATION MENU -->
+<nav id="navSites">
+    <div class="menu-type2">
+        <a href="javascript:void(0)" onclick="closeNavSites()"><i class="fa-solid fa-arrow-left-long"></i></a>
+    </div>
+
+    <div class="openNav openNav-no-pic">
+        <a href="/docs/sites/judaism/judaism.html">Judaism</a>
+    </div>
+</nav>
+
+<!-- RESOURCEPACKS NAVIGATION MENU -->
+<nav id="navResourcepacks">
+    <div class="menu-type2">
+        <a href="javascript:void(0)" onclick="closeNavResourcepacks()"><i class="fa-solid fa-arrow-left-long"></i></a>
+    </div>
+
+    <div class="openNav openNav-no-pic">
+        <a href="/docs/resourcepacks/sweet_prejudice.html">Sweet Prejudice</a>
+        <a href="/docs/resourcepacks/frasig_slade.html">Fäsig Släde</a>
+    </div>
+</nav>
+
+<!-- EXERCISES NAVIGATION MENU -->
+<nav id="navExercises">
+    <div class="menu-type2">
+        <a href="javascript:void(0)" onclick="closeNavExercises()"><i class="fa-solid fa-arrow-left-long"></i></a>
+    </div>
+
+    <div class="openNav">
+        <div onclick="openNavPractices()">
+            <i class="fa-solid fa-book-bookmark"></i>
+            <span>Practices</span>
+        </div>
+
+        <div onclick="openNavTemplates()">
+            <i class="fa-solid fa-book"></i>
+            <span>Templates</span>
+        </div>
+    </div>
+
+</nav>
+
+<!-- PRACTICES NAVIGATION MENU -->
+<nav id="navPractices">
+    <div class="menu-type2">
+        <a href="javascript:void(0)" onclick="closeNavPractices()"><i class="fa-solid fa-arrow-left-long"></i></a>
+    </div>
+
+    <div class="openNav openNav-no-pic">
+        <a href="/docs/exercises/practices/web_history.html">WWW History</a>
+        <a href="/docs/exercises/practices/browsers.html">Browsers</a>
+        <a href="/docs/exercises/practices/charts/charts.html">Charts</a>
+    </div>
+</nav>
+
+<!-- TEMPLATES NAVIGATION MENU -->
+<nav id="navTemplates">
+    <div class="menu-type2">
+        <a href="javascript:void(0)" onclick="closeNavTemplates()"><i class="fa-solid fa-arrow-left-long"></i></a>
+    </div>
+
+    <div class="openNav openNav-no-pic">
+        <a href="/docs/exercises/templates/lists.html">Lists</a>
+        <a href="/docs/exercises/templates/style_sheets.html">Style Sheets</a>
+        <a href="/docs/exercises/templates/box_model/box_model.html">Box Model</a>
+        <a href="/docs/exercises/templates/javascript/java_script.html">Java Script</a>
+        <a href="/docs/exercises/templates/fonts.html">Fonts</a>
+    </div>
+</nav>

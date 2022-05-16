@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Prejudice</title>
+    <link rel="stylesheet" href="resourcepacks.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+    <main>
+
+        <!-- Navigation panel -->
+        <div id="nav-placeholder"></div>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="/docs/assets/nav/import-nav.js"></script>
+        <!-- end of Navigation panel -->
+
+        <article>
+
+            <div class="navigation">
+                <a href="/docs/index.html">Home</a>
+                »
+                <a onclick="openNavResourcepacks()">Resource packs</a>
+                »
+                Sweet Prejudice
+            </div>
+
+            <h1>Sweet Prejudice Resource Pack 1.18 / 1.17 / 1.16</h1>
+            <h2 class="pack-version">BY NoLifer47 - LAST UPDATED 15 MAY 2022</h2>
+
+            <p style="text-align: justify; font-size: 15px;">
+                Have you ever launched Minecraft and thought, damn i wish there was a
+                resource pack reflecting my prejudice self. Luck is on your side for i have
+                the perfect resource pack just for you! This resource pack brings forward
+                the worst preconceptions the worlds has to offer, all in one package.
+                From colonising villages to exploring the second world war or you might
+                want to go for a ride in Thomas the Tank? Trust me when i say you won't get
+                bored for some time, whilst exploring Minecraft with surprises laying
+                behind every corner.
+            </p>
+
+            <div class="slideshow-container">
+
+                <div class="slide fade"><img src="media/slideshow_SP/pillager.png"></div>
+                <div class="slide fade"><img src="media/slideshow_SP/trader.png"></div>
+                <div class="slide fade"><img src="media/slideshow_SP/creeper.png"></div>
+                <div class="slide fade"><img src="media/slideshow_SP/phantom.png"></div>
+                <div class="slide fade"><img src="media/slideshow_SP/hogrider.png"></div>
+                <div class="slide fade"><img src="media/slideshow_SP/thomas.png"></div>
+                <div class="slide fade"><img src="media/slideshow_SP/spider.png"></div>
+                <div class="slide fade"><img src="media/slideshow_SP/ghast.png"></div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <script src="img_slide.js"></script>
+
+            </div>
+
+            <div class="pack-info">
+                Sweet Prejudice Resoure Pack should be compatible with these Minecraft versions: <br>
+                1.18.2 - 1.18.1 - 1.18 - 1.17.1 - 1.17 - 1.16.4 - 1.16.3 - 1.16.2 - 1.16.1 - 1.16 <br>
+                OptiFine is required! - Older versions might experience missing textures!
+            </div>
+
+            <section class="download">
+
+                <b>Download links:</b> <br>
+
+                <a href="download/Sweet-Prejudice 1.16+.zip" download>
+                    <i class="fa-solid fa-file-arrow-down fa-bounce" style="--fa-bounce-height: -5px;"></i>
+                    [1.16+] Download Sweet Prejudice resource pack
+                </a> <br>
+                <a href="download/Sweet-Prejudice 1.14.x.zip" download="">
+                    <i class="fa-solid fa-file-arrow-down fa-bounce" style="--fa-bounce-height: -5px;"></i>
+                    [1.14.x] Download Sweet Prejudice resource pack
+                </a>
+
+            </section>
+
+        </article>
+
+        <aside class="showcase-container">
+
+            <audio id="pillager-audio" src="media/showcase/idle4.ogg"></audio>
+            <audio id="minecart-audio" src="media/showcase/thomas.mp3"></audio>
+
+            <img onclick="playSoundMinecart();" src="media/showcase/minecart.png" alt="">
+            <span style="text-align: center;">press us for surprise!</span>
+            <img onclick="playSoundPillager();" src="media/showcase/pillager.png" alt="">
+
+            <script>
+                function playSoundMinecart() {
+                    var sound = document.getElementById("minecart-audio");
+                    sound.play();
+                }
+
+                function playSoundPillager() {
+                    var sound = document.getElementById("pillager-audio");
+                    sound.play();
+                }
+            </script>
+
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/docs/assets/footer/import-footer.js"></script>
+    <!-- specific footer style -->
+    <style>
+        footer {
+            max-width: 1260px;
+        }
+    </style>
+    <!-- end of Footer -->
+
+</body>
+
+</html>

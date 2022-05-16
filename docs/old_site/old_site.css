@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+    background-image: url(https://wallpaper.dog/large/11042249.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    font-family: "Arial";
+}
+
+a {
+    color: white
+}
+
+#g {
+    color: #7D7D7D
+}
+
+.wrapper {
+    margin-top: 200px;
+    text-align: center;
+}
+
+#gtk span {
+    padding: 10px;
+}
+
+/* NAV Meny */
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    /* Full height */
+    position: fixed;
+    /* Make it stick, even on scroll */
+    overflow: auto;
+    /* Enable scrolling if the sidenav has too much content */
+    top: 30px;
+    margin-left: 40px;
+}

@@ -1,0 +1,72 @@
+:root {
+    --txt-color: #ffffff;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+
+    background-image: url(media/wallpaper.png);
+    /* COMMERCIAL USE CC */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    font-size: 2.4vw;
+
+}
+
+main {
+    margin-left: 75px;
+
+    text-align: center;
+    /* align horizontal */
+}
+
+.head h1,
+.head h2 {
+    transition: 1.2s;
+}
+
+.head:hover h1,
+.head:hover h2 {
+    cursor: pointer;
+
+    color: #a200ff;
+}
+
+.headline {
+    margin-top: 250px;
+
+    color: var(--txt-color);
+    font-size: 10vw;
+}
+
+.headline2 {
+    margin-top: -8.5vw;
+    margin-left: -5vw;
+
+    color: var(--txt-color);
+}
+
+.lore {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 230px;
+    color: var(--txt-color);
+}
+
+.lore h2 {
+    font-size: 30px;
+}
+
+.lore p {
+    padding: 20px;
+
+    text-align: justify;
+
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 7px;
+}
