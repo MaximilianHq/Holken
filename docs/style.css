@@ -1,5 +1,6 @@
 :root {
     --txt-color: #ffffff;
+    --txt-home-color: #000000;
 }
 
 body {
@@ -39,7 +40,7 @@ main {
 .headline {
     margin-top: 250px;
 
-    color: var(--txt-color);
+    color: var(--txt-home-color);
     font-size: 10vw;
 }
 
@@ -47,7 +48,7 @@ main {
     margin-top: -8.5vw;
     margin-left: -5vw;
 
-    color: var(--txt-color);
+    color: var(--txt-home-color);
 }
 
 .lore {
@@ -59,6 +60,7 @@ main {
 
 .lore h2 {
     font-size: 30px;
+    color: var(--txt-home-color);
 }
 
 .lore p {
