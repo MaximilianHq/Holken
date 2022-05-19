@@ -110,7 +110,6 @@ nav {
     color: var(--icon-color);
 }
 
-/* potential credits
 .credit {
     position: absolute;
     margin-bottom: 150px;
@@ -125,7 +124,6 @@ nav {
     text-decoration: none;
     color: #979797;
 }
-*/
 
 .homebtn {
     position: absolute;
